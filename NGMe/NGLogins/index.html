@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+		<title>Login NG</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="login_page_scripts.js"></script>
+	</head>
+	<body>
+		<div class="login_whole" ng-app="loginit">
+			<div class="title_content" ng-controller="title_content_cntrl">
+        <form-title>
+          <img id="title_image" src="{{title_image_address}}">
+  				<h5 id="title_text">{{application_title}}</h5>
+        </form-title>
+			</div>
+			<div class="forms_content" ng-controller="forms_controller">
+				<input type="password" id="pswd" class="login_input_fields" >
+				<input type="checkbox" id="checkme">Agree?<a href="#">Read our terms and conditions</a>
+			</div>
+			<div class="buttons_content">
+				<input type="submit" ng-submit=submit_it() class="login_buttons" id="login_btn" name="login_btn" >
+				<input type="button" ng-click=register_it() class="login_buttons" id="register_btn" name="register_btn" >
+				<a href="forgot_password.html">Forgot Password?</a>
+			</div>
+		</div>
+	</body>
+</html>
