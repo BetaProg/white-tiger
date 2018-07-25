@@ -1,0 +1,60 @@
+Angular Chat App in 5 days:
+
+1. SASS, GULP, Linux Tree Command, Github forking, creative commons
+
+http://fdietz.github.io/recipes-with-angular-js//controllers/sharing-models-between-nested-controllers.html
+
+https://smacss.com/book/categorizing
+
+ In Angular, a scope prototypically inherits properties from a parent scope. Objects are therefore references and kept in sync. Whereas primitive types are only in sync as long they are not changed in the child scope.
+
+$watch
+
+$inject and dependency injection
+
+**************************************
+Unit testing - Jasmine, Karma etc atlast
+**************************************
+
+How can we confirm if HTML5 / CSS3 is running in the application/browser???
+
+what does (), {}, [] denotes in code in separate languages???
+
+what is boiler plate code???
+
+step wise scroll like angular io site UI ???
+
+istanbul-lib-hook@ ????
+
+advantages of npm, angular cli etc
+
+use oneway data binding in angular js
+
+https://fdietz.github.io/recipes-with-angular-js//directives/changing-the-dom-in-response-to-user-actions.html
+
+
+what if I don't have a logout button??
+
+How to check if I'm logged ut or not??
+
+what are cookies??
+
+services?? injector services??
+
+https://www.formget.com/angularjs-popup/
+
+https://www.formget.com/angularjs-crud/
+
+
+http://andyshora.com/unit-testing-best-practices-angularjs.html
+
+https://www.sitepoint.com/ultimate-angular-cli-reference/
+
+https://www.c-sharpcorner.com/UploadFile/1d3119/dynamic-routing-using-angular-js/
+
+https://www.youtube.com/watch?v=_RcOyfjy6_I
+
+URL encoded???
+
+
+https://www.youtube.com/watch?v=hk8xkMoPHSk - AngularJS and MySQL
